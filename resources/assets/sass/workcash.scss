@@ -1,0 +1,169 @@
+.workcash {
+    
+  .main-content {
+    margin-top: 20px;
+    
+    .section-title {
+      position: relative;
+
+      h3 {
+        border-bottom: 1px solid #e1e2e3;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        padding-left: 28px;
+        padding-top: 10px;
+        position: relative;
+      }
+
+      .icon-section {
+        position: absolute;
+        top: 14px;
+        width: 25px;
+      }
+    }
+    
+    .section {
+      margin-bottom: 35px;
+      
+      .section-blank {
+        background-color: #fafafa;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        padding: 15px;
+        text-align: center;
+
+        h3 {
+          font-weight: 400;
+          font-size: 1.3rem;
+        }
+      }
+    }
+    
+  }
+  
+  .company-list {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    
+    .company-list-item {
+      border-bottom: 1px solid #eee;
+      padding: 10px;
+      position: relative;
+      
+      &:hover {
+        border-color: #00a8ff;
+      }
+      
+      &>a {
+        color: #333;
+        text-decoration: none;
+        
+        &:hover {
+          background-color: transparent;
+        }
+      }
+      
+      .avatar {
+        background-color: #D3D3D3;
+        border-radius: 3px;
+        display: inline-block;
+        font-size: 18px;
+        height: 100px;
+        margin-right: 5px;
+        padding-top: 35px;
+        vertical-align: middle;
+        padding-left: 5px;
+        &.one-letter {
+          padding-left: 0;
+          text-align: center;
+        }
+      }
+      
+      .edit-company-button {
+          right: 10px;
+          top: 10px;
+      }
+      
+    }
+  }
+    
+}
+
+.workcash-editform {
+  
+  input[type='date'],
+  input[type='number'],
+  textarea {
+    border: 1px solid #c4cdd5;
+    
+    &:focus {
+        border: 1px solid #5c6ac4;
+    }
+  }
+  
+}
+
+.workcash-company {
+   
+  .avatar {
+    background-color: #D3D3D3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    height: 100px;
+    margin-right: 5px;
+    padding-top: 35px;
+    vertical-align: middle;
+    padding-left: 5px;
+    &.one-letter {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+
+  .edit-company-button {
+    right: 10px;
+    top: 10px;
+  }
+
+  .main-content {
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+
+  .sweet-modal {
+    overflow: visible;
+
+    .sweet-content {
+      padding: 0;
+    }
+  }
+
+  .section-title {
+    position: relative;
+
+    .icon-jobs {
+      position: absolute;
+      top: 14px;
+      width: 17px;
+    }
+
+    h3 {
+      border-bottom: 1px solid #e1e2e3;
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      padding-left: 23px;
+      padding-top: 10px;
+      position: relative;
+    }
+
+  }
+
+
+
+}
